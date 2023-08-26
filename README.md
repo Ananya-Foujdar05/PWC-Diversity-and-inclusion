@@ -1,6 +1,6 @@
-## PWC-Diversity-and-inclusion
+# PWC-Diversity-and-inclusion
 
-# Table of Contents:
+## Table of Contents:
 + Problem statement
 + Data Source
 + Data Preparation
@@ -8,7 +8,7 @@
 + Insights
 
 
-# Problem Statement:
+## Problem Statement:
 Define relevant KPIs in hiring, promotion, performance and turnover, and create a visualisation.
 
 ### Calculating the following measures could help to define proper KPIs:
@@ -24,10 +24,10 @@ Define relevant KPIs in hiring, promotion, performance and turnover, and create 
 + Average performance rating: men
 + Average Performance rating: women
 
-# Data Source:
+## Data Source: [diversity and inclusion dataset](https://github.com/Ananya-Foujdar05/PWC-Diversity-and-inclusion/blob/main/03%20Diversity-Inclusion-Dataset.xlsx)
 
 
-# Data Preparation:
+## Data Preparation:
 + Data transformation was done in power query and loaded into power bi desktop
 + Created some measures using DAX that are:
    - Total Employees = `COUNT('Pharma Group AG'[Employee ID])`
@@ -41,12 +41,12 @@ Define relevant KPIs in hiring, promotion, performance and turnover, and create 
    - Turnover in FY20 = `'Pharma Group AG'[Total Turnover]/'Pharma Group AG'[Total Employees]`
  
 
-# Data Visualization:
+## Data Visualization:
 
 ![Diversity and inclusion](https://github.com/Ananya-Foujdar05/PWC-Diversity-and-inclusion/assets/140806083/cb01625a-2da4-46fe-a523-e7a339d8283e)
 
   
-# Insights:
+## Insights:
 As we can conclude
 + Total employee are 500 in which 295 are men and 205 are women.
 + In FY20 new hires are 66 and leavers are 47.
